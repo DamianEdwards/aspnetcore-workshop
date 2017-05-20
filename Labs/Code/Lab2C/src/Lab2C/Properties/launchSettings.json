@@ -1,9 +1,9 @@
-{
+﻿{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55740/",
+      "applicationUrl": "http://localhost:21445/",
       "sslPort": 0
     }
   },
@@ -15,14 +15,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Lab2": {
+    "Lab2C": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:8081",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Production"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:55741"
+      "applicationUrl": "http://localhost:21446"
     }
   }
 }
