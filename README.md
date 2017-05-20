@@ -3,12 +3,19 @@
 
 ## Installers
 
-### .NET Core SDK 1.0 Preview 4 build 004233
-Follow instructions from https://github.com/dotnet/core/blob/master/release-notes/preview4-download.md
+### Windows
 
-### Visual Studio 2017 RC (Offline Installer)
-1. Run vs_community.exe in vs2017 folder
-1. Select **only** `.NET Core` and `Web Development` workloads
+- [.NET Core SDK](https://www.microsoft.com/net/core#windowscmd)
+- [Visual Studio 2017](https://www.microsoft.com/net/core#windowsvs2017) -  **.NET Core** and **Web Development** workloads
+- [Razor Language Services (VSIX)](https://aka.ms/razorlangsvc)
+- [Project File Tools (VSIX)](https://aka.ms/projfiletools)
 
-### VS Code (on USB drive)
-1. Install VS Code from USB drive or http://code.visualstudio.com.
+### macOS
+
+- [.NET Core SDK](https://www.microsoft.com/net/core#macos)
+- [Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
+
+### Visual Studio Code
+
+- [Visual Studio Code](http://code.visualstudio.com)
+- [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
