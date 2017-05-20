@@ -45,19 +45,30 @@ namespace Lab4
 
             var startupLogger = loggerFactory.CreateLogger<Startup>();
 
-            app.UseExceptionHandler(subApp =>
+            if (env.IsDevelopment())
             {
-                subApp.Run(async context =>
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler(subApp =>
                 {
-                    context.Response.ContentType = "text/html";
-                    await context.Response.WriteAsync("<strong> Application error. Please contact support. </strong>");
-                    await context.Response.WriteAsync(new string(' ', 512));  // Padding for IE
+                    subApp.Run(async context =>
+                    {
+                        context.Response.ContentType = "text/html";
+                        await context.Response.WriteAsync("<strong> Application error. Please contact support. </strong>");
+                        await context.Response.WriteAsync(new string(' ', 512));  // Padding for IE
+                    });
                 });
-            });
+            }
+
+            app.UseStatusCodePages("text/html", "<p>You got a <strong>{0}</strong></p>");
 
             app.Run((context) =>
             {
-                throw new InvalidOperationException("Oops!");
+                //throw new InvalidOperationException("Oops!");
+                context.Response.StatusCode = 404;
+                return Task.FromResult(0);
             });
 
             startupLogger.LogInformation("Application startup complete!");
