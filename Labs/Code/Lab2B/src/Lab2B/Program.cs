@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Lab2
+namespace Lab2B
 {
     public class Program
     {
@@ -13,10 +13,10 @@ namespace Lab2
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls("http://localhost:8081")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseApplicationInsights()
                 .Build();
 
             host.Run();
