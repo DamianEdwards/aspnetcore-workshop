@@ -1,0 +1,98 @@
+2017-01-13 01:38:57.500 -08:00 [Information] Application startup complete!
+2017-01-13 01:38:57.562 -08:00 [Fatal] This is a critical message
+2017-01-13 01:38:57.564 -08:00 [Warning] This is a warning message
+2017-01-13 01:38:57.565 -08:00 [Error] This is an error message
+2017-01-13 01:56:27.840 -08:00 [Information] Application startup complete!
+2017-01-13 01:56:27.881 -08:00 [Fatal] This is a critical message
+2017-01-13 01:56:27.883 -08:00 [Warning] This is a warning message
+2017-01-13 01:56:27.883 -08:00 [Error] This is an error message
+2017-01-13 01:56:35.979 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:8081/  
+2017-01-13 01:56:41.547 -08:00 [Error] Connection id ""0HL1RJ9R04HV8"": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_0(HttpContext context) in C:\Users\jonga\Documents\GitHub\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 55
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.Frame`1.<RequestProcessingAsync>d__2.MoveNext()
+2017-01-13 01:56:42.358 -08:00 [Information] Request finished in 5633.8104ms 200 
+2017-01-13 01:58:11.103 -08:00 [Information] Application startup complete!
+2017-01-13 01:58:11.143 -08:00 [Fatal] This is a critical message
+2017-01-13 01:58:11.145 -08:00 [Warning] This is a warning message
+2017-01-13 01:58:11.146 -08:00 [Error] This is an error message
+2017-01-13 01:58:17.337 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:8081/  
+2017-01-13 01:58:22.235 -08:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_0(HttpContext context) in C:\Users\jonga\Documents\GitHub\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 55
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-13 01:58:22.895 -08:00 [Information] Request finished in 5572.0805ms 500 text/html; charset=utf-8
+2017-01-13 01:58:23.248 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:8081/favicon.ico  
+2017-01-13 01:58:25.761 -08:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_0(HttpContext context) in C:\Users\jonga\Documents\GitHub\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 55
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__6.MoveNext()
+2017-01-13 01:58:26.200 -08:00 [Information] Request finished in 2553.9868ms 500 text/html; charset=utf-8
+2017-01-13 02:12:53.823 -08:00 [Information] Application startup complete!
+2017-01-13 02:12:53.870 -08:00 [Fatal] This is a critical message
+2017-01-13 02:12:53.872 -08:00 [Warning] This is a warning message
+2017-01-13 02:12:53.873 -08:00 [Error] This is an error message
+2017-01-13 02:13:01.282 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:8081/  
+2017-01-13 02:13:12.000 -08:00 [Error] An unhandled exception has occurred: Oops!
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_2(HttpContext context) in C:\Users\jonga\Documents\GitHub\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-01-13 02:13:12.489 -08:00 [Information] Request finished in 11206.4365ms 500 text/html
+2017-01-13 02:13:12.770 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:8081/favicon.ico  
+2017-01-13 02:13:14.438 -08:00 [Error] An unhandled exception has occurred: Oops!
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_2(HttpContext context) in C:\Users\jonga\Documents\GitHub\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-01-13 02:13:14.442 -08:00 [Information] Request finished in 1674.765ms 500 text/html
+2017-05-20 13:12:25.481 -07:00 [Information] Application startup complete!
+2017-05-20 13:12:25.500 -07:00 [Fatal] This is a critical message
+2017-05-20 13:12:25.502 -07:00 [Warning] This is a warning message
+2017-05-20 13:12:25.503 -07:00 [Error] This is an error message
+2017-05-20 13:12:25.950 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:55740/  
+2017-05-20 13:12:25.950 -07:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:55740/  0
+2017-05-20 13:12:29.971 -07:00 [Error] An unhandled exception has occurred: Oops!
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_2(HttpContext context) in C:\Users\daroth\Documents\GitHub\jongalloway\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 60
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-05-20 13:12:30.055 -07:00 [Information] Request finished in 4138.6591ms 500 text/html
+2017-05-20 13:12:30.055 -07:00 [Information] Request finished in 4135.1659ms 200 
+2017-05-20 13:13:59.542 -07:00 [Information] Application startup complete!
+2017-05-20 13:13:59.561 -07:00 [Fatal] This is a critical message
+2017-05-20 13:13:59.562 -07:00 [Warning] This is a warning message
+2017-05-20 13:13:59.562 -07:00 [Error] This is an error message
+2017-05-20 13:13:59.976 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:55740/  
+2017-05-20 13:13:59.976 -07:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:55740/  0
+2017-05-20 13:14:01.099 -07:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_2(HttpContext context) in C:\Users\daroth\Documents\GitHub\jongalloway\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 67
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-05-20 13:14:01.193 -07:00 [Information] Request finished in 1234.826ms 200 
+2017-05-20 13:14:01.392 -07:00 [Information] Request finished in 1447.057ms 500 text/html; charset=utf-8
+2017-05-20 13:24:56.293 -07:00 [Information] Application startup complete!
+2017-05-20 13:24:56.315 -07:00 [Fatal] This is a critical message
+2017-05-20 13:24:56.317 -07:00 [Warning] This is a warning message
+2017-05-20 13:24:56.318 -07:00 [Error] This is an error message
+2017-05-20 13:24:56.857 -07:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:55740/  0
+2017-05-20 13:24:56.857 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:55740/  
+2017-05-20 13:25:02.642 -07:00 [Error] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Oops!
+   at Lab4.Startup.<>c.<Configure>b__6_2(HttpContext context) in C:\Users\daroth\Documents\GitHub\jongalloway\aspnetcore-workshop\Labs\Code\Lab4C\src\Lab4\Startup.cs:line 69
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-05-20 13:25:02.758 -07:00 [Information] Request finished in 5928.9368ms 200 
+2017-05-20 13:25:02.999 -07:00 [Information] Request finished in 6183.4317ms 500 text/html; charset=utf-8
+2017-05-20 13:25:50.545 -07:00 [Information] Application startup complete!
+2017-05-20 13:25:50.581 -07:00 [Fatal] This is a critical message
+2017-05-20 13:25:50.583 -07:00 [Warning] This is a warning message
+2017-05-20 13:25:50.583 -07:00 [Error] This is an error message
+2017-05-20 13:25:50.947 -07:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:55740/  0
+2017-05-20 13:25:50.947 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:55740/  
+2017-05-20 13:25:51.108 -07:00 [Information] Request finished in 189.8434ms 404 text/html
+2017-05-20 13:25:51.108 -07:00 [Information] Request finished in 187.7421ms 200 

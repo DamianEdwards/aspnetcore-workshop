@@ -1,0 +1,6 @@
+2017-05-20 13:09:35.011 -07:00 [Information] Application startup complete!
+2017-05-20 13:09:35.042 -07:00 [Fatal] This is a critical message
+2017-05-20 13:09:35.045 -07:00 [Warning] This is a warning message
+2017-05-20 13:09:35.047 -07:00 [Error] This is an error message
+2017-05-20 13:09:44.729 -07:00 [Information] Request starting HTTP/1.1 GET http://localhost:8081/  
+2017-05-20 13:09:44.887 -07:00 [Information] Request finished in 208.2205ms 200 
